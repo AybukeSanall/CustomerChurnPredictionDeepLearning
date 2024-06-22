@@ -1,20 +1,27 @@
 
 # Telecom Customer Churn Prediction using Deep Learning
 
-Bu proje, telekom sektöründe müşteri kaybını (churn) tahmin etmek için bir derin öğrenme modeli geliştirmeyi amaçlamaktadır.
+This project aims to develop a deep learning model to predict customer churn in the telecom sector.
 
 
-## Kullanılan Yöntem ve Adımlaar
+## Methods and Steps Used
 
-**Veri Ön İşleme:** Veri yükleme, gereksiz sütunların kaldırılması, veri dönüşümleri ve ölçekleme işlemleri yapılmıştır.
+**Data Preprocessing:** Data loading, removal of unnecessary columns, data transformations, and scaling operations have been performed.
 
-**Model Oluşturma:** 3 katmanlı bir yapay sinir ağı modeli kullanılarak müşteri kaybı tahmini yapılmıştır.
+**Model Creation:** A 3-layer artificial neural network model was used to predict customer churn.
 
-**Performans Değerlendirmesi:** Doğruluk (accuracy), precision, recall ve F1-score gibi metriklerle modelin performansı ölçülmüştür.
+**Performance Evaluation:** The model's performance was measured using metrics such as accuracy, precision, recall, and F1-score.
 
   
-## Sonuçlar
-Modelin doğruluk oranı  **%85.67** olarak ölçülmüştür.
-Müşteri kaybının en yüksek olduğu dönemin ilk 10 ay olduğu gözlemlenmiş, sonrasında müşteri sadakatinin arttığı belirlenmiştir.
+## Results
+The accuracy of the model is **85.67%.**
+It was observed that customer churn was highest in the first 10 months, followed by an increase in customer loyalty.
+
+
+
+
+
+
+
 
   
